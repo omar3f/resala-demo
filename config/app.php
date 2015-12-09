@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application in Debug Mode
+    | Application in Debug Mode WoW
     |--------------------------------------------------------------------------
     |
     | When your application is in debug mode, detailed error messages with
