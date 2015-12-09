@@ -19,7 +19,7 @@ class MailConfig {
     $this->confirmation_column          =  'confirm_code';
     $this->confirmation_code_length     =  10;
     $this->confirmation_parameters      =  ['id', 'confirm_code'];
-    $this->confirmation_url             =  'http://localhost/resala/public/donor/confirm';
+    $this->confirmation_url             =  'http://localhost/resala-project/public/donor/confirm';
 
 
     }
