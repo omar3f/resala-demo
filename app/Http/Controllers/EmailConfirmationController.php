@@ -18,7 +18,7 @@ class EmailConfirmationController extends Controller
 
     public function index(Request $request, Verifier $verifier, TempDonor $temp_donor, Donor $donor)
     {
-        
+
         $verifier->setIdentifiers(['id' => $request->id, 'confirm_code' => $request->confirm_code]);
         $verifier->verify($temp_donor, $donor);
         return view('emailredirect.confirm');
