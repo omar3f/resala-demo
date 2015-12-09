@@ -1,0 +1,25 @@
+.title {
+    font-family: 'Oswald', sans-serif;
+    color: #5e5e5e;
+    font-size: 3.8em;
+}
+
+.navbar {
+    background-color: white;
+}
+input[type=submit] {
+    background-color: #ac2925;
+    border-color: #ac2925
+
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=submit]:visited {
+    background-color: #5e5e5e;
+    border-color: #5e5e5e;
+}
+
+.errors {
+    color: #C40D0D;
+font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
