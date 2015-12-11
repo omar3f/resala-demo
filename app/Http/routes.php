@@ -19,4 +19,7 @@ Route::resource('/donors', 'DonorsController');
 Route::post('/donors', 'DonorsController@sendMail');
 Route::get('/donor/confirm', 'EmailConfirmationController@index');
 
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
 

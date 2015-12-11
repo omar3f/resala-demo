@@ -58,6 +58,6 @@ Thanks <img src="{!! URL::asset('pictures/heart-shadow.png') !!}" alt="" width="
     <script src="{!! URL::asset('my_js/addToArrayElements.js') !!}"></script>
     <script src="{!! URL::asset('my_js/objectProperties.js') !!}"></script>
     <script src="{!! URL::asset('my_js/disappearWhenClicked.js') !!}"></script>
-    <script src="{!! URL::asset('my_js/donationAjaxResponseHandler.js') !!}"></script>
+    {{--<script src="{!! URL::asset('my_js/donationAjaxResponseHandler.js') !!}"></script>--}}
 
 @endsection
